@@ -33,6 +33,10 @@ let actors = [
   {
     name: 'Tom Cruise',
     movies: ['Jack Reacher: Never Go Back', 'Mission Impossible 4', 'War of the Worlds']
+  },
+  {
+    name: 'Duke Ko',
+    movies: ['Flatiron', 'Brooklyn Technical Highschool', 'Queens College']
   }
 ]
 

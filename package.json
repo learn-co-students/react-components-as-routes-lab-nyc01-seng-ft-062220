@@ -28,6 +28,7 @@
     "jquery": "^3.5.0",
     "marked": "^0.3.6",
     "mocha-multi": "^1.0.1",
+    "multi": "^0.1.3",
     "react": "^16.0.0 ",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.2.2",
@@ -42,5 +43,17 @@
     "dev:hot": "webpack-dev-server --hot --inline --progress --colors --watch --display-error-details --display-cached --content-base ./",
     "test:watch": "npm run test -- --watch",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
